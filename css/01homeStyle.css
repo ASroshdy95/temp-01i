@@ -1,0 +1,421 @@
+/*start global & my framwork*/
+*{
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ -o-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+html{overflow: }
+
+body{
+ font-family: 'Josefin Sans', sans-serif;/*main font*/
+ position: relative;
+ height: 100%;
+ margin: 0;
+ padding: 0;
+ }
+ 
+.upper-case{text-transform: uppercase}
+
+.capit{text-transform: capitalize}
+
+.main-b-color{background-color:#FF523b}
+
+.main-color{color:#FF523b}
+ 
+ .overlay{
+  background-color: rgba(255, 82, 59, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  display: none;
+  height: 0}
+
+button{
+ background-color:#FF523b ;
+ color: #FFF;
+ border-radius: 20px;
+ transition: background-color 0.3s ease-in-out;
+ display: block}
+
+ button:hover{
+ transform: scale(1.05);
+ background-color: #563434}
+ 
+ a{
+  text-transform: none;
+  color: #999}
+  
+ a:hover{
+  color:#FF523b
+  }
+  
+ .footer .social-media i{cursor: pointer}
+ 
+ .footer .social-media i:hover{
+  transform: scale(1.1)
+ }
+/*End global & my framwork*/     
+
+
+/*start scroll-to-top button*/
+ .scroll-to-top{
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  background-color:#FF523b;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.5);
+  cursor: pointer;
+  display: none;
+  z-index: 9999;
+ }
+ 
+ .scroll-to-top i{
+  padding: 5px
+ }
+/*End scroll-to-top button*/
+
+
+/*start loader overlay*/
+.loader-overlay{
+ background-color:#FF523b;
+ position: fixed;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 99999;
+ text-align: center;
+ padding: 40px 0 ;
+ display: none
+}
+
+.loader-overlay .loader-content{
+ position: fixed;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ color:#FFF
+ }
+
+.loader-overlay p,.loader-overlay span{
+ font-size: 100px;
+ display: none;
+ margin-top: 50px
+ }
+ 
+ .loader-overlay p .change{
+  font-size: 100px
+ }
+/*End loader overlay*/
+
+
+/*start the navigation section*/
+.navbar{
+ background-color: transparent;
+ border: 0 ;
+ }
+ 
+.navbar .navbar-header .navbar-brand{
+ height:65px;}
+ 
+.navbar .navbar-header .navbar-brand img{
+  height: 100%;
+  }
+  
+.navbar .navbar-header .navbar-brand img:hover{
+    transform: scale(1.1)
+   }
+  
+ .navbar .navbar-right li a {
+    margin:  5px 0;
+    transition:all 0.3s ease-in-out;
+    color: #000
+   }
+      
+ .navbar .navbar-right li a:hover{color:#FF523b;}
+   
+ .navbar .navbar-right .active{
+   color:#FF523b;}
+   
+.navbar .navbar-toggle:hover{
+   background-color: transparent;
+   transform: scale(1.1)}
+   
+.navbar .navbar-right li:first-child a{
+   position: relative }
+   
+.navbar .navbar-right li:first-child .home-sections{
+ height: 165px;
+ width: 0;
+ background-color:#FFF;
+ position: absolute;
+ right: 50%;
+ top: 80%;
+ border-radius: 5px;
+ z-index: 999;
+ display: none}
+ 
+ .navbar .navbar-right li:first-child .home-sections .fa-level-up-alt{
+  position: absolute;
+  right: -5%;
+  top: -5%;
+  color:#FF523b}
+
+.navbar .navbar-right li:first-child .home-sections ul li:not(:last-child){
+ border-bottom: 1px solid #EEE}
+
+.navbar .navbar-right li:first-child .home-sections ul li{
+ font-size: 8px;
+ padding: 5px;
+ display: none
+}
+
+.navbar .navbar-right li:first-child .home-sections ul li:hover{
+color:#FF523b;/*why i cant make it after scrolling up!!*/
+cursor: pointer;
+font-weight: bold
+}
+   
+/*End the navigation section*/
+
+
+/*start header section*/
+.header {
+ background: radial-gradient(#FFF,#ffd6d6);/*nice trick*/}
+
+.header .header-img img{
+ max-width: 100%
+}
+
+.header .header-slogan{margin-top: -50px}
+
+.header .header-slogan h1{
+ font-weight: bold;
+ text-transform: capitalize;
+}
+
+.header .header-slogan p{
+opacity: 0.8; 
+}
+
+.header .header-slogan button{
+ background-color:#FF523b ;
+ color: #FFF;
+ border-radius: 20px;
+ transition: background-color 0.3s ease-in-out
+}
+
+.header .header-slogan button:hover{
+ transform: scale(1.05);
+ background-color: #563434
+}
+/*End header section*/
+
+
+/*start categories section*/
+.categories{
+ margin: 50px auto 
+}
+
+.categories .category{
+position: relative;}
+
+.categories .category .overlay{
+ width: calc(100% - 30px);
+ left: 15px /*trick*/
+}
+
+ .categories .category .overlay h4{
+ color: #FFF;
+ position: absolute;
+ top: 50%;
+ left: 40%;
+ display: none
+}
+
+ .categories .category .overlay:hover h4{
+ display: block}
+
+ .categories img{
+ width: 100%;}
+/*End categories section*/
+
+
+/*start features section*/
+.features{margin:  }
+
+.features .products h2 {
+ position: relative;
+ margin-bottom: 50px 
+ }
+
+.features .products .lat-prod-h{
+ margin-top:50px}
+
+.features .products h2:after{
+ content: "";
+ background: #FF523b;
+ position: absolute;
+ width: 15%;
+ height: 5px;
+ bottom: -5%;
+ left: 50%;
+ transform: translateX(-50%)/*nice trick to make the under line centered*/
+}
+
+.features .products .product{
+ margin:}
+
+.features .products img{width: 100%;}
+ 
+.features .product{transition: all 0.3s ease-in-out}
+ 
+.features .product:hover{transform: translateY(-15px)}
+
+.features .products .product h4,
+.features .products .product p{color: #999}
+
+.features .products .product h4{}
+ 
+.features .products .product .rating i{color:#FF523b}
+/*End features section*/
+
+
+/*start offer section*/
+.offer{
+ margin-top: 50px ;
+ background: radial-gradient(#FFF,#ffd6d6);/*nice trick*/
+ padding: 50px 0;
+}
+
+.offer .offer-pic img{
+ width: 90%;
+ }
+
+.offer .offer-details{
+  padding-top: 20px
+}
+
+.offer .offer-details h1{
+ font-weight: bold;
+ font-size: 80px
+}
+
+.offer .offer-details p{
+ font-weight: bold;
+ font-size: 30px}
+
+.offer .offer-details span{
+ display: block;
+ padding: 10px 0;
+ font-size: 20px;
+ color:#555}
+
+.offer .offer-details button{
+ background-color:#FF523b ;
+ color: #FFF;
+ border-radius: 20px;
+ transition: background-color 0.3s ease-in-out;
+ display: block
+}
+
+.offer .offer-details button:hover{
+ transform: scale(1.05);
+ background-color: #563434
+}
+/*End offer section*/
+
+
+/*start testimonials section*/
+.testimonials{margin-top: 50px }
+
+.testimonials .users .rating i{color:#FF523b}
+
+.testimonials .users img{
+ width:20%;
+ border-radius: 50%;
+ margin-top: 20px
+}
+
+.testimonials .users{
+ padding: 50px 30px;
+ cursor: pointer;
+ transition: all 0.5s ease-in-out;
+ opacity: 0.5
+}
+
+.testimonials .users.active
+,.testimonials .users:hover{
+ transform: scale(1.3);
+ opacity: 1
+}
+
+
+.testimonials .users .fa-quote-left{
+ font-size: 30px;
+ margin-bottom: 10px
+}
+/*End testimonials section*/
+
+
+/*start brands section*/
+.brands{
+ margin-top: 50px;
+ box-shadow: 0 0 20px 1px rgba(0,0,0,0.1);
+ position: relative}
+
+.brands .brand{display: inline}
+
+.brands .brand img{filter: grayscale(100%) }
+
+.brands .brand img:hover{filter: grayscale(0);}
+  
+.brands .brand:not(:first-child){display: }
+
+/*End brands section*/
+
+
+/*start footer section*/
+.footer{
+ background-color: rgba(0,0,0,0.9);
+ padding: 60px 0px;
+ 
+}
+
+.footer img{
+ width: 40%;
+ display: inline;
+}
+
+.footer img:hover{
+ transform: scale(1.1);
+ cursor: pointer
+}
+
+.footer h3{
+ color: #FFF;
+}
+
+.footer p,
+.footer ul{
+ padding: 10px 0;
+ color: grey
+}
+
+.footer ul li i{padding:5px}
+
+.footer .footer-log-pic{
+ margin-top: -18px
+}
+
+/*End footer section*/

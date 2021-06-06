@@ -1,0 +1,52 @@
+#again again & again in each seperate project prepare files & libraries#
+
+#files:
+1-css
+2-js
+3-images
+4-fonts
+
+#libraries:
+1-bootstrap
+2-font awesome
+3-hover.css
+4-wow.js/animate.css
+5-nice scroll
+6-jquery
+
+*u can use (html5 boilerplate) website*
+
+where can i start after preparing the project:
+1-nav
+2-header
+---------------------------------------------------------------------------------------------------
+General notes :
+- always make the make up html structure first before the making the style.
+- height:100% = height: 100vh "viewport height"
+- margin-top:25vh for centering the header`s content
+- dont forget what u learnt in the bootstrap
+- center-block , form-control , btn
+- make your own class in your media
+------------------------------------------------------------------------------------------------
+
+
+
+
+1)i need to get make an icon for the website upper tab.
+2)make the nav bar section a live (scrolling + moving to another page + switch the active class)
+3)buttom to top gentle button
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,150 @@
+/*Start Media Query*/
+ 
+ /*smartphone & tablet (xs)*/
+ @media (max-width:768px)
+ {
+  
+  body{
+   overflow: hidden
+  }
+  
+  /*header*/
+  .header .header-slogan {text-align: center}
+  
+  .header .header-slogan h1{margin-top: 70px;}
+  
+  .header .header-slogan p{margin: 10px }
+  
+  .header .header-img img{
+   max-width: 70%;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%)}
+  
+  /*categories*/
+  .categories .category {margin-bottom: 30px}
+
+  
+/*offers*/
+.offer{
+   margin-top: 10px ;
+   padding: 20px 0;
+   text-align: center
+  }
+
+.offer .offer-pic img{
+ width: 30%;
+ margin-top: 10px;}
+  
+.offer .offer-details{padding-top: 10px}
+
+.offer .offer-details h1{font-size: 20px}
+
+.offer .offer-details p{font-size: 15px}
+
+.offer .offer-details span{font-size: 10px}
+
+.offer button{margin: 0 auto}
+
+/*testimonials*/
+.testimonials{
+ margin-top: 15px;
+ text-align: left
+}
+
+.testimonials .users{
+ padding:  30px;
+ cursor: pointer;
+ transition: all 0.5s ease-in-out;
+ opacity: 0.8
+}
+.testimonials .users img{
+ width:20%;
+ border-radius: 50%;
+ margin-top: 0px;
+ float: left;
+ position: relative
+}
+
+.testimonials .users.active
+,.testimonials .users:hover{
+ box-shadow: 0 0 20px 1px rgba(0,0,0,0.1);
+ opacity: 1;
+  transform: scale(1.1)
+}
+ 
+.testimonials .users h4{
+ float: left
+}
+
+.testimonials .users .rating{
+position: absolute;
+top: 60%;
+left: 25%
+}
+
+.testimonials .users .fa-quote-left{font-size: 20px;}
+
+.testimonials .users p{font-size: 10px;float: left}
+
+/*brands*/
+.brands{margin-top: 30px  ;}
+
+
+  /*footer*/
+ .footer{padding: 10px 0;}
+ 
+ .footer .footer-log-pic{
+  margin-top: 6px
+ }
+ 
+ 
+ 
+}/*end of xs media*/
+ 
+ 
+ /*Small screen (sm)*/
+ @media (min-width:768px) and (max-width:991px)
+ {
+  .header .header-slogan {margin-top: 100px;}
+  
+  .header .header-img{margin-top: 70px;}
+ 
+ 
+ 
+ 
+ 
+ }
+ 
+ 
+ /*medium screen (md)*/
+ @media (min-width:991px) and (max-width:1199px)
+ {
+  .header .header-slogan {margin-top: 70px;}
+  
+  .header .header-img{margin-top: 50px;}
+  
+ 
+ 
+ 
+  }
+ 
+ /*large screen (lg)*/
+ @media (min-width:1200px)
+ {
+  
+  .header .header-img{margin-top: 70px;}
+  
+  .header .header-slogan{margin-top: 20px;}
+  
+  .header .header-slogan h1{ font-size: 80px}
+
+  .header .header-slogan p{margin: 30px 0}
+
+ 
+ 
+ 
+ }
+ 
+ /*End Media Query*/
+ 

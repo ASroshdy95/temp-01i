@@ -1,0 +1,93 @@
+/*Start account section*/
+
+.account {
+ background: radial-gradient(#FFF,#ffd6d6);/*nice trick*/
+}
+
+.account img{
+ max-width: 100%
+}
+
+.account .form-container input{
+    width:100% ;
+    text-transform: capitalize;
+    padding:5px 10px;
+    border: 1px solid #DDD;
+    margin: 10px 0 
+}
+
+.account .form-container button{
+    background-color:#FF523b ;
+    color: #FFF;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 20px
+}
+
+.account .form-container button:hover{
+     transform: scale(1.02);
+     background-color: #563434;
+     color: #FFF
+}
+
+.account .form-container input:focus,
+.account .form-container button:focus{
+    outline: none;
+}
+
+.account .form-container{
+   background: #FFF;
+   width:300px;
+   height: 400px;
+   position: relative;
+   text-align: center;
+   padding: 20px 0;
+   margin: auto;
+   box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+   overflow: hidden
+}
+
+.account .form-btns span{
+    font-weight: bold;
+    padding: 0 10px;
+    cursor: pointer;
+    color:#555;
+    display: inline-block;
+    position: relative;
+}
+
+#indicator{
+ width:65%;
+ border: none;
+ background: #ff523b;
+ height: 4px;
+ transform: translateX(20px);
+ transition: all 0.5s ease-in-out;
+ position: absolute;
+ left:-13%;
+ top: 0
+}
+
+.account .form-container form{
+ max-width: 300px;
+ padding: 0 20px ;
+ position: absolute;
+ top: 130px;
+ transition:transform 0.5s ease-in-out 
+}
+
+#loginForm{
+ left: ;
+}
+
+#regForm{
+ left: -300px;
+} 
+
+#loginForm a{
+ font-size: 12px
+}
+
+/*End account section*/

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+    
+    <html lang="eng">
+        
+        <head>
+            <!--arabic lang meta-->
+            <meta charset="UTF-8"/> 
+            <!-- Required meta tags for Bootstrap -->
+            <!--IE compatibility meta-->
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <!--first mobil meta-->
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!--bootstrap CSS-->
+            <!--title should be below meta-->
+            <title>Account Page</title>
+            <link rel="shortcut icon" type="image/png" href="images/image1.png"/><!--favIcon-->
+            <link rel="stylesheet" href="css/bootstrap.css"/><!--bootstrap library-->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"><!--fontawesome library-->
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,700&display=swap"><!--body font-->
+            
+            <!--css-->
+            <link rel="stylesheet" href="css/05accountStyle.css"/><!--account page css file-->
+            <link rel="stylesheet" href="css/05accountMedia.css"/><!--account page media-->
+            <link rel="stylesheet" href="css/01homeStyle.css"/><!--home css file-->
+            <link rel="stylesheet" href="css/01homeMedia.css"/><!--home css media-->
+            
+            <link rel="stylesheet" href="css/animate.css"/><!--animation.css library-->
+            <!--[if lt IE 9]>
+            <!--for IE media query-->
+            <script src="js/html5shiv.min.js"></script>
+            <script src="js/respond.min.js"></script>
+            <![endif]-->
+        </head>
+        <body>
+            
+             
+        <!--Start account section-->
+         <section class="account">
+            <div class="container">
+                    
+                    <!--start navigation section-->
+                        <nav class="navbar navbar-default" role="navigation">
+                          <div class="container">
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                              </button>
+                              <a class="navbar-brand" href="#">
+                                <img src="images/logo.png" alt="logo"/>
+                              </a>
+                            </div>
+                        
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                              
+                              <ul class="nav navbar-nav navbar-right">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="productsPage.html">Products</a></li>
+                                <li><a href="#footer">Contact</a></li>
+                                <li><a href="accountpage.html" class="active">Account</a></li>
+                                <li><a href="cartpage.html">
+                                    <i class="fas fa-shopping-cart fa-lg"></i>
+                                </a></li>
+                              </ul>
+                            </div><!-- /.navbar-collapse -->
+                          </div><!-- /.container -->
+                        </nav>
+                    <!--End navigation section-->
+            
+          <div class="row">
+            
+            <div class="col-sm-6 hidden-xs">
+                <img src="images/image1.png" alt="header image"/>
+            </div>
+            
+            <div class="col-sm-2 hidden-xs"></div>
+            
+            <div class="form-container col-sm-4 col-xs-12">        
+                    <div class="form-btns">
+                        <span class="log">Login
+                        <hr id="indicator">
+                        </span>
+                        <span class="reg">Register</span>
+                    </div>
+                 
+                    <form id="loginForm">
+                        <input type="text" name="username" placeholder="username"/>
+                        <input type="password" name="password" placeholder="password"/>
+                        <button class="btn btn-lg">login</button>
+                        <a href="" class="text-center">forget password</a>
+                    </form>
+                    
+                    <form id="regForm">    
+                           <input type="text" name="username" placeholder="username"/>
+                           <input type="email" name="email" placeholder="email"/>
+                           <input type="password" name="password" placeholder="password"/>
+                           <button class="btn btn-lg">Register</button> 
+                    </form>
+                 
+            </div><!--form div-->
+            
+          </div><!--row-->
+        </div><!--container-->
+      </section>
+      <!--End account section-->
+            
+            
+            
+            <!--start footer section-->
+            <section class="footer" id="footer">
+                <div class="container">
+                    
+                    <div class=" col-sm-4 col-xs-12">
+                        <h3 class="capit">download our app</h3>
+                        <p class="capit">download app for andoriod and ios mobile phones</p>
+                        <div class="download-img">
+                            <img src="images/play-store.png"/>
+                            <img src="images/app-store.png"/>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4 col-xs-12">
+                        <h3 class="capit">our purpose</h3>
+                        <p class="capit">our purpose to sustainably and benefits of sports accessible to the many</p>
+                        <img src="images/logo-white.png" class="footer-log-pic"/>
+                    </div>
+                    <div class="col-sm-2 col-xs-6 ">
+                        <h3 class="capit">useful links</h3>
+                        <ul class="capit list-unstyiled">
+                            <li>coupons</li>
+                            <li>blog post</li>
+                            <li>return policy</li>
+                            <li>join affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 col-xs-6 social-media">
+                        <h3 class="capit">follow us </h3>
+                        <ul class="capit list-unstyiled"> 
+                            <li>facebook<i class="fab fa-facebook-f fa-lg main-color"></i></li>
+                            <li>twitter<i class="fab fa-twitter fa-lg main-color"></i></li>
+                            <li>instigram <i class="fab fa-instagram fa-lg main-color"></i></li>
+                            <li>youTube <i class="fab fa-youtube fa-lg main-color"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!--End footer section-->          
+             
+            
+            
+            
+            <!--JQuery.js library--> 
+            <script src="js/jquery-1.11.1.min.js"></script>
+            <!--wow.js library-->
+            <script src="js/wow.min.js"></script>
+            <!--nice scroll library-->
+            <script src="js/jquery.nicescroll.min.js"></script>
+            <!--mixItUp.js library-->
+            <script src="js/jquery.mixitup.js"></script>
+            <!--JS links for bootstrap-->
+            <script src="js/bootstrap.min.js"></script>
+            <!--js custom file-->
+            <script src="js/05accountPlugin.js"></script>
+            <script src="js/01homePlugin.js"></script>
+        </body>
+    </html>

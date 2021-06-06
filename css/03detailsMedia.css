@@ -1,0 +1,142 @@
+/*Start Media Query*/
+ 
+ /*smartphone & tablet (xs)*/
+ @media (max-width:768px)
+ {
+ 
+.main-g{
+ position: relative;
+ left: 50%;
+ transform: translateX(-50%)}
+ 
+ .gallery .master-img i:last-of-type{right: -8%}
+  
+ .gallery .master-img i:first-of-type{left: -8%}
+ 
+ .prod-info >p{
+ font-size: 15px;
+ margin: 5px 0;
+ width: 85%;
+ position: relative;
+ left: 50%;
+ transform: translateX(-50%)}
+ 
+ .prod-info h1:first-of-type{
+  font-size: 25px;
+  text-align: center}
+ 
+.prod-info .size,.prod-info .car-btn{margin:  0;}
+  
+.prod-info .quantity{margin: 15px 0;}
+
+.prod-info .car-btn button:hover{
+ transform: scale(1.1);
+ background-color:transparent;
+ color: #FF523b;}
+
+.prod-info .prod-det{margin-top: 30px}
+
+.prod-info .prod-det p{margin-top: 10px;}
+ 
+.features{margin-top: 30px }
+ 
+.features .rel-prod{margin-bottom: 30px} 
+ }/*end of xs media */
+ 
+ 
+ 
+ 
+ 
+ /*Small screen (sm)*/
+ @media (min-width:768px) and (max-width:991px)
+ {
+ 
+  .prod-info >p{
+ font-size: 15px;
+ margin: 5px 0;
+ width: 100%;
+ position: relative;
+ left: 50%;
+ transform: translateX(-50%)
+ }
+ 
+  .prod-info h1:first-of-type{
+  font-size: 20px;
+ }
+ 
+ 
+ .prod-info .size,.prod-info .car-btn{margin:  0;}
+  
+  .prod-info .quantity{
+ margin: 15px 0;
+}
+
+.prod-info .car-btn button:hover{
+ transform: scale(1.1);
+ background-color:transparent;
+ color: #FF523b;
+}
+
+.prod-info .prod-det{margin-top: 30px}
+
+.prod-info .prod-det p{
+ margin-top: 10px;
+ opacity: 0.9;}
+ 
+ 
+ }
+ 
+ 
+ /*medium screen (md)*/
+ @media (min-width:991px) and (max-width:1199px)
+ {
+  
+ .prod-info >p{
+ font-size: 15px;
+ margin: 0;
+ width: 100%;
+ position: relative;
+ left: 50%;
+ transform: translateX(-50%)
+ }
+ 
+  .prod-info h1:first-of-type{
+  font-size: 25px;
+ }
+ 
+ 
+ .prod-info .size,.prod-info .car-btn{margin:  0;}
+  
+  .prod-info .quantity{
+ margin: 15px 0;
+}
+
+.prod-info .car-btn button:hover{
+ transform: scale(1.1);
+ background-color:transparent;
+ color: #FF523b;
+}
+
+.prod-info .prod-det{margin-top: 30px}
+
+.prod-info .prod-det p{
+ margin-top: 10px;
+ opacity: 0.9;}
+ 
+ 
+ 
+  }
+ 
+ /*large screen (lg)*/
+ @media (min-width:1200px)
+ {
+  
+ 
+
+ 
+ 
+ 
+ }
+ 
+ /*End Media Query*/
+ 

@@ -1,0 +1,57 @@
+/*Start Media Query*/
+ 
+ /*smartphone & tablet (xs)*/
+ @media (max-width:768px)
+ {
+  .header .header-slogan {text-align: center}
+  
+  .header .header-slogan h1{margin: 1px}
+  
+  .header .header-slogan p{margin: 1px }
+ 
+ 
+ 
+ }
+ 
+ 
+ /*Small screen (sm)*/
+ @media (min-width:768px) and (max-width:991px)
+ {
+  .header .header-slogan {margin-top: 100px;}
+  
+  .header .header-img{margin-top: 70px;}
+ 
+ 
+ 
+ }
+ 
+ 
+ /*medium screen (md)*/
+ @media (min-width:991px) and (max-width:1199px)
+ {
+  .header .header-slogan {margin-top: 100px;}
+  
+  .header .header-img{margin-top: 70px;}
+  
+ 
+ 
+ 
+  }
+ 
+ /*large screen (lg)*/
+ @media (min-width:1200px)
+ {
+  
+  .header .header-img{margin-top: 70px;}
+  
+  .header .header-slogan{margin-top: 150px;}
+
+  .header .header-slogan p{margin: 30px 0}
+
+ 
+ 
+ 
+ }
+ 
+ /*End Media Query*/
+ 

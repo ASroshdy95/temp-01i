@@ -1,0 +1,171 @@
+                                       /*Start details section*/
+
+/*Start of the gallery */
+ .gallery{
+   
+ 
+ }
+ 
+ .gallery img{max-width: 100%}
+  
+ .gallery .master-img{position:relative }
+  
+ .gallery .master-img i{
+   position: absolute;
+   top: 45%;
+   cursor: pointer;
+   font-size: 30px;}
+  
+ .gallery .master-img i:last-of-type{right: 2%}
+  
+ .gallery .master-img i:first-of-type{left: 2%}
+  
+ .gallery .thumbnails{overflow: hidden;}
+ 
+ .gallery .thumbnails img{
+    float: left;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.3s ease-in-out
+    }
+    
+.gallery .thumbnails .active{
+ opacity: 1 ;
+ transform: scale(1.1)}
+ /*end of the gallery*/
+
+
+/*start of prod-det*/ 
+.prod-info >p{
+ color:#FFF;
+ padding: 5px ;
+ font-size: 20px;
+ font-weight: normal;
+ border-radius: 5px;
+ margin: 0;
+ width: 100%;}
+ 
+ .prod-info h1:first-of-type{
+  text-transform: uppercase;
+ }
+ 
+ .prod-info p.price{
+  font-size: 45px;
+  font-weight: bold;
+  color: #FF523b;
+   text-align: center
+ }
+ 
+ .prod-info p.price span{
+  font-size: 15px;
+  font-weight: 400  
+ }
+
+.prod-info h4{
+ display: inline;
+ font-weight: normal;
+ opacity: 0.9
+ }
+ 
+.prod-info .size{margin-top: 50px;}
+
+.prod-info .size select{
+ float: right;
+ display: inline-block;
+  border: 2px solid #FF523b;
+  padding: 5px 10px ;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  color: #FF523b;
+  width: 85px
+}
+
+.prod-info .size select:focus{outline: none}
+
+.prod-info .quantity{
+ margin: 20px 0;
+}
+
+.prod-info .quantity input[type="number"]{
+ float: right;
+ display: inline;
+  border: 2px solid #FF523b;
+  padding: 5px 10px ;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  color: #FF523b;
+  width: 50px
+}
+
+.prod-info .quantity input[type="number"]:focus{outline: none}
+
+.prod-info .car-btn{margin-bottom: 50px;}
+
+.prod-info .car-btn button{
+  float: right;
+  display: inline;
+  border:none;
+  cursor: pointer;
+  background-color:transparent ;
+  color: #FF523b;
+  width: 50px;
+ height: 50px;
+ border-radius:50% ;
+ text-align: center;
+ padding: 10px  }
+
+.prod-info .car-btn button:hover{
+ transform: scale(1.2);
+}
+
+.prod-info .prod-det{
+ margin-top: 50px
+}
+
+.prod-info .prod-det h3{
+ display: inline;
+ margin-right: 10px;
+ }
+
+.prod-info .prod-det p{
+ margin-top: 20px;
+ opacity: 0.9
+ } 
+
+/*End of prod-det*/
+
+                     /*End details section*/ 
+ 
+ 
+ /*start features section*/
+ .features{
+  margin: 50px 0
+ }
+ 
+ .features .rel-prod{
+  overflow: hidden;
+  margin-bottom: 50px
+ }
+ 
+ .features .rel-prod h3{
+  display: block;
+  text-align:center;
+ }
+ 
+ .features  p.v-more{
+  border: 1px solid #FF523b;
+  padding: 5px 10px;
+  background-color:  #FF523b;
+  color: #FFF;
+  margin: 50px auto;
+  width: 110px;
+  cursor: pointer
+ }
+ .features  p.v-more i{
+  padding-left:10px 
+ }
+/*End features section*/

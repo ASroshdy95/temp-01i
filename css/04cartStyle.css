@@ -1,0 +1,80 @@
+.cart-page{
+    margin: 50px auto
+}
+
+.cart-page table{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative
+}
+
+.cart-page table th{
+    background-color:#FF523b;
+    color: #FFF;
+    height: 40px;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.cart-page table th:not(:first-child){text-align: center}
+
+.cart-page table td:not(:first-child){text-align: center}
+
+.cart-page table .product {
+  padding: 5px 0;
+}
+
+.cart-page table .product img{
+  width: 100px;
+  float: left;
+  margin-right: 5px
+}
+
+.cart-page table:first-child p.remove-prod{
+  cursor: pointer;
+  opacity: 0.8
+}
+
+.cart-page table:first-child p.remove-prod:hover{
+  color: #FF523b;
+  transform: scale(1.01)
+}
+
+.cart-page table .quantity input{
+  border: 2px solid #FF523b;
+  padding: 5px 10px ;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  color: #FF523b;
+  width: 50px 
+}
+
+.cart-page table .quantity input:focus{
+    outline:none 
+}
+
+.cart-page table:last-child{
+margin-top: 15px;
+position: relative
+}
+
+.cart-page table:last-child td{
+    padding-top:5px;
+}
+
+.cart-page h4{text-transform: uppercase}
+
+
+.cart-page table:last-child .tot-price{
+  color: #f00;
+  position: absolute;
+  right: 3%;
+}
+
+
+
+
+

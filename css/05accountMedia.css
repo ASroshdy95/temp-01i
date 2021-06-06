@@ -1,0 +1,58 @@
+/*Start Media Query*/
+ 
+ /*smartphone & tablet (xs)*/
+ @media (max-width:768px)
+ {
+ 
+    .account .navbar .navbar-brand img{
+        width:30%
+    }
+    
+    .account img{
+        max-width: 50%
+    }
+ 
+ 
+    .account .form-container{
+       left: 50%;
+       transform: translateX(-50%)
+    }
+   
+   
+   
+ }
+ 
+ 
+ /*Small screen (sm)*/
+ @media (min-width:768px) and (max-width:991px)
+ {
+  
+ 
+ 
+ 
+ }
+ 
+ 
+ /*medium screen (md)*/
+ @media (min-width:991px) and (max-width:1199px)
+ {
+ 
+  
+ 
+ 
+ 
+  }
+ 
+ /*large screen (lg)*/
+ @media (min-width:1200px)
+ {
+  
+
+
+ 
+ 
+ 
+ }
+ 
+ /*End Media Query*/
+ 
